@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="03_AddProduct" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="fcb607ad-38e1-4f83-8642-2d961ba90412" weightsEnabled="false">
+    <weighted-embedded-action uid="e5ec3b4b-3a03-446a-a352-c63c5356e599"/>
+    <weighted-embedded-action uid="75ae41ea-f8da-4804-b933-fc22168ef04e"/>
+    <weighted-embedded-action uid="87165ef2-54d9-4b14-8905-0f1494b88321"/>
+    <weighted-embedded-action uid="5b7372aa-266d-4d9c-b092-54117c78b0dc"/>
+</basic-logical-action-container>

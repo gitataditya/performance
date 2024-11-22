@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="04_GoToCart" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="824c4f4f-6d7c-4966-afb4-07d6e9870ef9" weightsEnabled="false">
+    <weighted-embedded-action uid="65b5489d-1d0a-45d6-98d4-3337c01e539a"/>
+    <weighted-embedded-action uid="75e9f1b8-5c68-4fd6-90e8-86a6c9f91840"/>
+</basic-logical-action-container>

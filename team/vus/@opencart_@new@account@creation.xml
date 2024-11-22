@@ -1,0 +1,29 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="Opencart_NewAccountCreation">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="58a1e72f-248d-44be-b02f-a04a539d81cc"/>
+        <weighted-embedded-action uid="42ccfe16-4290-4fc0-9f3a-586835d5da6c"/>
+        <weighted-embedded-action uid="632f7126-4d53-4a39-b74c-c267529a0aa8"/>
+        <weighted-embedded-action uid="5703aed8-a278-4c25-8d3c-ef018c004acc"/>
+        <weighted-embedded-action uid="23b1d4a3-3b9d-4cc7-af87-78534025ecde"/>
+        <weighted-embedded-action uid="f32e03e6-eabe-43ef-82cd-400322f64e71"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

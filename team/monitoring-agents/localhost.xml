@@ -1,0 +1,40 @@
+<me-host browserBasedSupport="false" citrixSupport="false"
+    loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false" uid="localhost" version="2023.3.0;build=20231009-13">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="kubernetes.docker.internal">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network) #6"
+        enabled="false" isLoopBack="false" name="eth1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:dc11:cc2e:c92d:332e%eth1">
+            <ip value="fe80:0:0:0:dc11:cc2e:c92d:332e%eth1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek 8822BE Wireless LAN 802.11ac PCI-E NIC"
+        enabled="false" isLoopBack="false" name="wlan3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="laptop-vvutq3l3.lan">
+            <ip value="192.168.31.236"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2409:40e3:40fc:3db4:5d21:5dfa:4ec9:a452">
+            <ip value="2409:40e3:40fc:3db4:5d21:5dfa:4ec9:a452"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:1fd9:26aa:ac5a:957d%wlan3">
+            <ip value="fe80:0:0:0:1fd9:26aa:ac5a:957d%wlan3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>
