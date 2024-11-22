@@ -1,31 +1,23 @@
 <virtual-user errorPolicy="DO_NOTHING"
     failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
-    type="LEGACY" uid="Opencart_AddItemToWishList">
+    type="LEGACY" uid="Test_1_Path">
     <init-container element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
         slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements executed once when the Virtual User starts.</description>
-        <weighted-embedded-action uid="cf5655bf-d9fb-43ad-b140-e703bfecb12c"/>
-        <weighted-embedded-action uid="bbb81ccf-fff6-4c37-be1f-605fb061885b"/>
-        <weighted-embedded-action uid="23db30ca-d0bf-4c53-a0e0-13cabcb7eb86"/>
-        <weighted-embedded-action uid="5a41e02d-a50f-441b-8bd6-af345b85712c"/>
     </init-container>
     <actions-container clearUserIterationDataMode="AUTO"
         element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
         slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements repeated until the Virtual User stops.</description>
-        <weighted-embedded-action uid="c516649d-a9b7-4562-9ac0-67b23fe0d061"/>
-        <weighted-embedded-action uid="751c384d-b586-4564-a91f-0d3383fc0242"/>
     </actions-container>
     <end-container element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
         slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements executed before the Virtual User stops.</description>
-        <weighted-embedded-action uid="d4d29a54-ede1-4b82-b2c9-4a7666d5c0e7"/>
-        <weighted-embedded-action uid="a22c767f-824d-4396-9645-38b4b8bd6b60"/>
     </end-container>
     <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
-        thinktimeFactorValue="100" thinktimePolicy="1"
-        thinktimeRangeValue="0" thinktimeValue="0"/>
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
 </virtual-user>
