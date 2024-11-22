@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="02_CreateAnAccount" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="632f7126-4d53-4a39-b74c-c267529a0aa8" weightsEnabled="false">
+    <weighted-embedded-action uid="0c94b152-deff-4905-a9c2-105d49a36ea0"/>
+    <weighted-embedded-action uid="47cfb419-00a5-441f-b5d4-e65dfe921964"/>
+    <weighted-embedded-action uid="16674f52-8bb9-41e1-942b-35d3463b2d80"/>
+    <weighted-embedded-action uid="3d44d41d-d856-4494-9fc9-52d8b64e37ba"/>
+</basic-logical-action-container>

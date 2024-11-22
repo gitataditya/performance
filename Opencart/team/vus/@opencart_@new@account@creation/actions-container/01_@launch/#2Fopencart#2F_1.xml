@@ -1,0 +1,91 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/opencart/_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@opencart_@new@account@creation/%resources%/recorded-artifacts/db131162-fefd-4890-99e4-a3d754ba3cae.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="db131162-fefd-4890-99e4-a3d754ba3cae">
+    <embedded-action>1a1765f8-c877-4628-acc1-01196af4cc73</embedded-action>
+    <embedded-action>bb011dd7-fef0-41c8-ae00-1de0e7aaf52b</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/opencart/" path="/opencart/" postType="6"
+    recordedArtifactZipFileName="team/vus/@opencart_@new@account@creation/%resources%/recorded-artifacts/db131162-fefd-4890-99e4-a3d754ba3cae.zip"
+    recordedResponseCode="200" responseSize="26501"
+    serverUid="naveenautomationlabs.com" slaProfileEnabled="false"
+    uid="1a1765f8-c877-4628-acc1-01196af4cc73" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_09a6f7dd-428a-49d5-a406-a94322a30a49.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_09a6f7dd-428a-49d5-a406-a94322a30a49.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="cookie" value="OCSESSID=${C_OCSESSID}; language=en-gb; currency=USD"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7"/>
+    <header name="dnt" value="1"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+x-powered-by: PHP/7.3.33&#xd;
+set-cookie: OCSESSID=f44f0592cf2c9db5826243a725; path=/; secure&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-encoding: br&#xd;
+vary: Accept-Encoding&#xd;
+date: Sat, 20 Jul 2024 06:41:33 GMT&#xd;
+server: LiteSpeed&#xd;
+platform: hostinger&#xd;
+content-security-policy: upgrade-insecure-requests&#xd;
+referrer-policy: no-referrer-when-downgrade&#xd;
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1a5-652bff12-0;;;&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Sun, 15 Oct 2023 15:02:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/opencart/image/catalog/cart.png"
+    path="/opencart/image/catalog/cart.png" postType="6"
+    recordedArtifactZipFileName="team/vus/@opencart_@new@account@creation/%resources%/recorded-artifacts/db131162-fefd-4890-99e4-a3d754ba3cae.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="naveenautomationlabs.com" slaProfileEnabled="false"
+    uid="bb011dd7-fef0-41c8-ae00-1de0e7aaf52b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7483059e-6045-483d-99e1-e4f745ae5858.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_812ae053-e222-4d3e-9ef7-3f8bf6090a66.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://naveenautomationlabs.com/opencart/"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="OCSESSID=${C_OCSESSID}; language=en-gb; currency=USD"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7"/>
+    <header name="dnt" value="1"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;126&quot;, &quot;Google Chrome&quot;;v=&quot;126&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public, max-age=31536000,public&#xd;
+expires: Sun, 20 Jul 2025 06:41:33 GMT&#xd;
+content-type: image/png&#xd;
+last-modified: Sun, 15 Oct 2023 15:02:42 GMT&#xd;
+etag: "1a5-652bff12-0;;;"&#xd;
+accept-ranges: bytes&#xd;
+content-length: 421&#xd;
+date: Sat, 20 Jul 2024 06:41:33 GMT&#xd;
+server: LiteSpeed&#xd;
+platform: hostinger&#xd;
+content-security-policy: upgrade-insecure-requests&#xd;
+referrer-policy: no-referrer-when-downgrade&#xd;
+pragma: public</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

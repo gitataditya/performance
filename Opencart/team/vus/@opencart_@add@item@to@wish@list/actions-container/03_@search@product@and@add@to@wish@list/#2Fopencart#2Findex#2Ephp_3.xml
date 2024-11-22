@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/opencart/index.php_3" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@opencart_@add@item@to@wish@list/%resources%/recorded-artifacts/3050f858-9b7b-44ef-9b03-ccdfe13b1969.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3050f858-9b7b-44ef-9b03-ccdfe13b1969">
+    <embedded-action>649bb8af-f05c-47ab-aaea-d82ca785f3fe</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/opencart/index.php" path="/opencart/index.php"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@opencart_@add@item@to@wish@list/%resources%/recorded-artifacts/3050f858-9b7b-44ef-9b03-ccdfe13b1969.zip"
+    recordedResponseCode="200"
+    refererUid="f56d3a29-5cc9-48c6-a62e-5be44e8a9d8a"
+    responseSize="22507" serverUid="naveenautomationlabs.com"
+    slaProfileEnabled="false" uid="649bb8af-f05c-47ab-aaea-d82ca785f3fe" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_38ce3f26-0cc5-4178-8d21-a608ad65ce9b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_38ce3f26-0cc5-4178-8d21-a608ad65ce9b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="route"
+        recordRawValue="account/wishlist" separator="="
+        value="account/wishlist" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="cookie" value="language=en-gb; currency=USD; OCSESSID=7fa1d39eea467dc3aca6f43a53"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7"/>
+    <header name="dnt" value="1"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+x-powered-by: PHP/7.3.33&#xd;
+set-cookie: OCSESSID=7fa1d39eea467dc3aca6f43a53; path=/; secure&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-encoding: br&#xd;
+vary: Accept-Encoding&#xd;
+date: Sat, 20 Jul 2024 08:02:35 GMT&#xd;
+server: LiteSpeed&#xd;
+platform: hostinger&#xd;
+content-security-policy: upgrade-insecure-requests&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorContent="Wish List (1)"
+        extractorId="wishlist-total" extractorOccurence="8"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/opencart/index.php_3" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@opencart_@add@product@to@cart/%resources%/recorded-artifacts/5b7372aa-266d-4d9c-b092-54117c78b0dc.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5b7372aa-266d-4d9c-b092-54117c78b0dc">
+    <embedded-action>06debdd3-e56b-4310-862b-d60fcefeb863</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/opencart/index.php" path="/opencart/index.php"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@opencart_@add@product@to@cart/%resources%/recorded-artifacts/5b7372aa-266d-4d9c-b092-54117c78b0dc.zip"
+    recordedResponseCode="200" responseSize="2339"
+    serverUid="naveenautomationlabs.com" slaProfileEnabled="false"
+    uid="06debdd3-e56b-4310-862b-d60fcefeb863" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_604fa770-e406-4d96-9bd8-978707297ac9.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_604fa770-e406-4d96-9bd8-978707297ac9.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="route"
+        recordRawValue="common/cart/info" separator="="
+        value="common/cart/info" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://naveenautomationlabs.com/opencart/index.php?route=product/category&amp;path=25_28"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="OCSESSID=${C_OCSESSID}; language=en-gb; currency=USD"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7"/>
+    <header name="dnt" value="1"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="text/html, */*; q=0.01"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;126&quot;, &quot;Google Chrome&quot;;v=&quot;126&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+x-powered-by: PHP/7.3.33&#xd;
+set-cookie: OCSESSID=f44f0592cf2c9db5826243a725; path=/; secure&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 749&#xd;
+content-encoding: br&#xd;
+vary: Accept-Encoding&#xd;
+date: Sat, 20 Jul 2024 07:24:03 GMT&#xd;
+server: LiteSpeed&#xd;
+platform: hostinger&#xd;
+content-security-policy: upgrade-insecure-requests&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

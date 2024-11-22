@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="04_LogOut" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d4d29a54-ede1-4b82-b2c9-4a7666d5c0e7" weightsEnabled="false">
+    <weighted-embedded-action uid="b353a6c6-a915-4e8d-ba75-db2484df4097"/>
+    <weighted-embedded-action uid="39b86fd1-beb6-40c8-9acc-58cf3688d2e1"/>
+</basic-logical-action-container>

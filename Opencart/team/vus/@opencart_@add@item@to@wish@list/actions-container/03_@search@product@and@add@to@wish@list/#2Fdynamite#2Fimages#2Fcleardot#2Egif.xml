@@ -1,0 +1,65 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/dynamite/images/cleardot.gif"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@opencart_@add@item@to@wish@list/%resources%/recorded-artifacts/84234347-eedb-4dbf-b525-27096246048a.zip"
+    slaProfileEnabled="false" thinkTime="1499"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="84234347-eedb-4dbf-b525-27096246048a">
+    <embedded-action>a57dea71-6437-4b64-8be7-36215c4d5b3c</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/opencart/index.php" path="/opencart/index.php"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/@opencart_@add@item@to@wish@list/%resources%/recorded-artifacts/84234347-eedb-4dbf-b525-27096246048a.zip"
+    recordedResponseCode="200" responseSize="302"
+    serverUid="naveenautomationlabs.com" slaProfileEnabled="false"
+    uid="a57dea71-6437-4b64-8be7-36215c4d5b3c" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[cHJvZHVjdF9pZD0zMQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_1c46c0f5-73c3-4da2-9fe2-b639aaf3e71d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1c46c0f5-73c3-4da2-9fe2-b639aaf3e71d.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="TextAssertion_1" notType="false" pattern="{&quot;success&quot;:&quot;Success: You have added"/>
+    </assertions>
+    <parameter encodeName="true" encodeValue="true" name="product_id"
+        recordRawValue="31" separator="=" value="31" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false" name="route"
+        recordRawValue="account/wishlist/add" separator="="
+        value="account/wishlist/add" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://naveenautomationlabs.com/opencart/index.php?route=product/category&amp;path=33"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="language=en-gb; currency=USD; OCSESSID=7fa1d39eea467dc3aca6f43a53"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7"/>
+    <header name="origin" value="https://naveenautomationlabs.com"/>
+    <header name="dnt" value="1"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;126&quot;, &quot;Google Chrome&quot;;v=&quot;126&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="content-type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+x-powered-by: PHP/7.3.33&#xd;
+set-cookie: OCSESSID=7fa1d39eea467dc3aca6f43a53; path=/; secure&#xd;
+content-type: application/json&#xd;
+cache-control: public, max-age=31536000&#xd;
+expires: Sun, 20 Jul 2025 08:02:30 GMT&#xd;
+content-length: 210&#xd;
+content-encoding: br&#xd;
+vary: Accept-Encoding&#xd;
+date: Sat, 20 Jul 2024 08:02:30 GMT&#xd;
+server: LiteSpeed&#xd;
+platform: hostinger&#xd;
+content-security-policy: upgrade-insecure-requests&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

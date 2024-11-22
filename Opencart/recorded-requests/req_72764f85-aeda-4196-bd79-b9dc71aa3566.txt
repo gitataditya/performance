@@ -1,0 +1,59 @@
+POST https://naveenautomationlabs.com/opencart/index.php?route=account/register HTTP/2.0
+content-length: 967
+cache-control: max-age=0
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://naveenautomationlabs.com
+dnt: 1
+upgrade-insecure-requests: 1
+content-type: multipart/form-data; boundary=----WebKitFormBoundaryLk3EiVry2u2TO3LE
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://naveenautomationlabs.com/opencart/index.php?route=account/register
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7
+cookie: OCSESSID=f44f0592cf2c9db5826243a725; language=en-gb; currency=USD
+priority: u=0, i
+
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="customer_group_id"
+
+1
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="firstname"
+
+Test
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="lastname"
+
+Demo
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="email"
+
+todoo656323@modotso.com
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="telephone"
+
+1234567890
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="password"
+
+****************
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="confirm"
+
+Test@2024
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="newsletter"
+
+0
+------WebKitFormBoundaryLk3EiVry2u2TO3LE
+Content-Disposition: form-data; name="agree"
+
+1
+------WebKitFormBoundaryLk3EiVry2u2TO3LE--

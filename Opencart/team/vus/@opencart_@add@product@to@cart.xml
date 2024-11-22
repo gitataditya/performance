@@ -1,0 +1,33 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="Opencart_AddProductToCart">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+        <weighted-embedded-action uid="a4427113-246a-4d2e-9645-886947a2359a"/>
+        <weighted-embedded-action uid="e168c62a-0ede-4d0b-84ab-587edbcd6175"/>
+        <weighted-embedded-action uid="b357eb67-3660-4b92-9e6e-238577561bdf"/>
+        <weighted-embedded-action uid="eac37a68-76db-4c51-af23-8a90e2f8f8ea"/>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="fcb607ad-38e1-4f83-8642-2d961ba90412"/>
+        <weighted-embedded-action uid="9e15cf2a-3ccd-4781-beea-08e0b1fbeb96"/>
+        <weighted-embedded-action uid="824c4f4f-6d7c-4966-afb4-07d6e9870ef9"/>
+        <weighted-embedded-action uid="645b131c-0375-4a0f-a934-dd84e6b4ed33"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+        <weighted-embedded-action uid="d0be97be-c0f2-40f5-a899-19ef5beffa52"/>
+        <weighted-embedded-action uid="372c3d67-89fa-474e-8431-e7091ee6f36a"/>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

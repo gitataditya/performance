@@ -1,0 +1,12 @@
+GET https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=33 HTTP/2.0
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+dnt: 1
+accept: */*
+sec-fetch-site: none
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7
+cookie: language=en-gb; currency=USD; OCSESSID=7fa1d39eea467dc3aca6f43a53
+priority: u=1, i
+
